@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.social-block {
+  margin-left: 40vw;
+}
+
+.social-media li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.social-media li a:hover, .social-block li a:focus {
+  color: #000;
+}
+
+.social-media a {
+  color: #000;
+  text-decoration: none;
+}
+
+.fa-facebook-f:hover {
+  color: #ffffff;
+}
+
+.fa-discord:hover {
+   color: #ffffff;
+}
+
+.fa-linkedin:hover {
+  color: #ffffff;
+}
+
+.fa-instagram:hover {
+  color: #ffffff;
+}
+
+.fa-twitter:hover {
+  color: #ffffff;
+}
+
+@media screen and (min-width:400px) and (max-width:600px) {
+
+  .social-block {
+    margin-left: 28vw;
+  }
+  
+}
+
+@media screen and (max-width: 399px) {
+
+  .social-block {
+    margin-left: 15vw;
+  }
+  
+}
